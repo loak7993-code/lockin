@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window background only: the whole UI is Compose. These values exist so the
+         cold-start window matches the app surface and never flashes white/black. -->
+    <color name="window_background">#FDFBFF</color>
+    <color name="window_background_dark">#131318</color>
+    <color name="ic_launcher_background">#2B1A63</color>
+</resources>

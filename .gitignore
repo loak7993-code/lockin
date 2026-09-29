@@ -1,0 +1,39 @@
+# Gradle
+.gradle/
+build/
+*/build/
+local.properties
+gradle-app.setting
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild/
+.cxx/
+release/
+lint-results*.html
+lint-results*.xml
+output.json
+
+# Signing — never commit these
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+*.swp
+.kotlin/
+
+# OS / editors
+.vscode/
+*.log

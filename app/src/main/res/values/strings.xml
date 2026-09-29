@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LockIn</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_service_label">LockIn focus guard</string>
+    <string name="accessibility_service_description">LockIn uses this only to see which app is on screen so it can show a full-screen reminder when you open something on your blocklist. It never reads screen content, never types, and never sends anything off the device.</string>
+
+    <!-- Notification channels -->
+    <string name="channel_session_name">Focus session</string>
+    <string name="channel_session_description">The running countdown and your primary task.</string>
+    <string name="channel_checkpoint_name">15-minute check-ins</string>
+    <string name="channel_checkpoint_description">Full-screen reminder every 15 minutes asking what you are working on.</string>
+
+    <!-- Notification -->
+    <string name="notification_session_title">Locked in on %1$s</string>
+    <plurals name="notification_session_text">
+        <item quantity="one">%1$d blocked attempt this session</item>
+        <item quantity="other">%1$d blocked attempts this session</item>
+    </plurals>
+    <plurals name="notification_checkpoint_title">
+        <item quantity="one">%1$d minute gone</item>
+        <item quantity="other">%1$d minutes gone</item>
+    </plurals>
+    <string name="notification_checkpoint_text">Answer the check-in: what is your primary task?</string>
+    <string name="notification_action_answer">Answer</string>
+    <string name="notification_action_end">End session</string>
+
+    <!-- Home -->
+    <plurals name="apps_locked_summary">
+        <item quantity="one">%1$d app locked · check-in every %2$d min</item>
+        <item quantity="other">%1$d apps locked · check-in every %2$d min</item>
+    </plurals>
+    <plurals name="checkin_every">
+        <item quantity="one">Check-in every %1$d minute</item>
+        <item quantity="other">Check-in every %1$d minutes</item>
+    </plurals>
+    <plurals name="minutes_label">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="checkins_count">
+        <item quantity="one">%1$d check-in</item>
+        <item quantity="other">%1$d check-ins</item>
+    </plurals>
+    <plurals name="blocked_count">
+        <item quantity="one">%1$d blocked</item>
+        <item quantity="other">%1$d blocked</item>
+    </plurals>
+</resources>

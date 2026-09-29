@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!--
+      Lint suggests merging mipmap-anydpi-v26 into mipmap-anydpi because minSdk is 29.
+      AAPT2 refuses to link an <adaptive-icon> without the -v26 qualifier ("elements
+      require a sdk version of at least 26"), so the folder has to stay. Verified
+      directly against aapt2 37.0.0, not assumed.
+    -->
+    <issue id="ObsoleteSdkInt">
+        <ignore path="src/main/res/mipmap-anydpi-v26" />
+    </issue>
+</lint>
